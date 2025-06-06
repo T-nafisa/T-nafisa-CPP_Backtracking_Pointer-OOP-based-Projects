@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    margin: 10px auto;
+    border: 2px solid #333;
+}
+
+.square {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+.white {
+    background-color: #eeeed2;
+}
+
+.black {
+    background-color: #769656;
+}
